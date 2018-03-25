@@ -2,7 +2,7 @@
 
 class parentf{
 	final void phonenum(){
-		final int a = 10;
+		public static int a = 10;
 		//int a =a+5; can't re assign because variable is final
 		System.out.println("I want Android phone "+a);
 	}

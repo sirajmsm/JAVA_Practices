@@ -1,0 +1,21 @@
+class parentS{
+	void m1(){
+		System.out.println("parent Method");
+	}
+}
+class childS extends parentS{
+	void m1(){
+		System.out.println("Child Method");
+	}
+	void m2(){
+		System.out.println("Direct Method");
+	}
+	
+	public static void main(String args[]){
+		parent p = new childS();
+		p.m1();
+		p.m2();
+	}
+
+
+}
